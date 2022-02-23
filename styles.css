@@ -1,0 +1,248 @@
+*{
+    border-style: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    border: 1px solid red;
+}
+
+.tablink {
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 45, 150);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: rgb(196, 205, 255);
+    color: white;
+}
+
+.tabcontent {
+    justify-content: space-between;
+    text-align: center;
+ color: white;
+ display: none;
+ padding: 100px 20px;
+ height: 100%;
+}
+
+#Home {background-image: url("/purple-space-cloud-hd-1080P-wallpaper.jpg");
+    background-size: cover;
+height: 1500px;
+display: flex;
+flex: wrap;
+justify-content: space-between;}
+#AST {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    font-family: cursive;
+    animation: glow 1s ease-in-out infinite alternate ;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60101, 0 0 40px #e60000, 0 0 50px #e6000c, 0 0 60px #e60000, 0 0 70px #e60000;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4d4d, 0 0 80px #ff4d4d;
+    }
+}
+#News {background-color: rgb(255, 255, 255);
+color: black;}
+#Contact {background-color: rgb(221, 221, 221);}
+#About {background-color: rgb(24, 24, 24);}
+
+.ww {
+    font-size: 30px;
+    font-weight: 900;
+}
+.SS {
+    font-weight: 900;
+    font-size: 25px;
+    font-family: monospace;
+}
+.GG {
+    color: rgb(211, 221, 240);
+    font-size: 23px;
+    font-weight: 600;
+    font-family: serif;
+    text-align: left;
+}
+.Imge {
+    transition: width 3s, height 2s;
+    transition-timing-function: initial;
+    box-shadow: 4px 4px 4px 4px black;
+    border-radius: 5px;
+}
+.imge {
+    box-shadow: 0 4px 4px 0 black;
+    border-radius: 10px;
+}
+
+#trick {
+    color: cornsilk;
+    text-shadow: 2px 2px 2px black;
+}
+#btt {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-family: cursive;
+    color: white;
+    background-color: black;
+}
+#btt:hover {
+   background-color: rgb(90, 88, 230)
+}
+.Imge:hover {
+    height: 400px;
+    width: 600px;
+}
+#Imge {
+    float: right;
+}
+.caption {
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+.para {
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.box1 {
+    border-style: groove;
+    border-color: 2px solid white;
+    background-color: rgb(73, 73, 73);
+}
+.box2 {
+    border-style: dashed;
+    border-color: 2px solid;
+    background-color: rgb(223, 223, 255);
+}
+#Anim {
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: dd;
+}
+@keyframes dd {
+    0% {height: 200px; width: 200px;}
+    50% {height: 200px;width:400px}
+    100% {height: 200px; width: 200px;}
+}
+#tri {
+    outline: none;
+    text-decoration: none;
+    animation: trick 0.5s infinite alternate; 
+    border-radius: 10px;
+}
+@keyframes trick {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+
+.headline {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.txt {
+    font-weight: 700;
+    font-family: monospace;
+    color: rgb(97, 100, 255);
+}
+
+.wrapper {
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .form input {
+    background: #222222;
+    color: white;
+    font-size: 15px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.wrapper .form textarea {
+    background: #222222;
+    color: white;
+    font-size: 15px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.wrapper .form .btg {
+    background: royalblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 5px;
+    opacity: 0.8;
+    transition: 0.3s all ease;
+}
+
+.wrapper .form .btn:hover {
+    opacity: 1;
+}
+.conten {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.know {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: monospace;
+}
+#lin {
+    border: none;
+    text-decoration: none;
+    font: 25px;
+    color: white;
+    font-weight: 900;
+}
+.pere {
+    font-size: 25px;
+    font-weight: 800;
+}
+.next {
+    font-family: cursive;
+  
+    justify-content: space-between;
+    padding: 10px 13px;
+
+}
