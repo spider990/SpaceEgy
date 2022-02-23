@@ -158,67 +158,7 @@ color: black;}
     color: rgb(97, 100, 255);
 }
 
-.wrapper {
-    background: white;
-    border-radius: 10px;
-    width: 500px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.wrapper .form input {
-    background: #222222;
-    color: white;
-    font-size: 15px;
-    width: 450px;
-    border-radius: 20px;
-    padding: 10px;
-    border: none;
-    outline: none;
-    margin-bottom: 10px;
-}
-
-.wrapper .form textarea {
-    background: #222222;
-    color: white;
-    font-size: 15px;
-    width: 450px;
-    border-radius: 20px;
-    padding: 10px;
-    border: none;
-    outline: none;
-    resize: none;
-}
-
-.wrapper .form .btg {
-    background: royalblue;
-    color: white;
-    font-size: 15px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 10px;
-    width: 300px;
-    border-radius: 20px;
-    margin-top: 5px;
-    opacity: 0.8;
-    transition: 0.3s all ease;
-}
-
-.wrapper .form .btn:hover {
-    opacity: 1;
-}
-.conten {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    margin-top: 10px;
-    padding: 10px;
-    width: 450px;
-    border-radius: 10px;
-}
 
 .know {
     font-size: 32px;
@@ -242,4 +182,22 @@ color: black;}
     justify-content: space-between;
     padding: 10px 13px;
 
+}
+
+
+}
+.solar {
+    color: brown;
+    text-shadow: 2px 2px 2px white;
+    font-weight: 800;
+    font-size: 30px;
+    border-width: 50%;
+    background-image: linear-gradient(rgba(21, 21, 94, 0.5), black);
+    border-radius: 10px;
+}
+.Extrasolar {
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 20px;
+    border-style: groove;
 }
