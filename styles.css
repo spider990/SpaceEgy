@@ -201,3 +201,32 @@ color: black;}
     border-radius: 20px;
     border-style: groove;
 }
+.box{
+    height: 100%;
+    width: 100%;
+    z-index: -9999;
+    position: fixed;
+}
+
+.block{
+    display: inline-block;
+    height: 70px;
+    width: 80px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: #ff4d4d;
+}
+
+.txtx {
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 700;
+    color: rgb(21, 67, 119);
+    text-shadow: 4px 4px 4px black;
+}
+.txxx{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 500;
+    color: black;
+}
