@@ -210,11 +210,22 @@ color: black;}
 
 .block{
     display: inline-block;
-    height: 70px;
-    width: 80px;
+    height: 20px;
+    width: 20px;
     margin: 15px;
-    border-radius: 8px;
+    border-radius: 15px;
     background-color: #ff4d4d;
+    animation-name: spe;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes spe {
+    0% {background-color: #ff4d4d;}
+    25% {background-color: #e60101;}
+    50%{background-color: lightblue;}
+    80% {background-color: rgb(91, 91, 211);}
+    100% {background-color: rgb(2, 2, 53);}
 }
 
 .txtx {
