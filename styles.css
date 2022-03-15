@@ -242,3 +242,39 @@ color: black;}
     color: black;
     text-shadow: 4px 4px 4px white;
 }
+.LL {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 400;
+    color: black;
+}
+#jok {
+    animation-name: jok;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+@keyframes jok {
+    0% {background-color: white;}
+    50% {background-color: rgb(255, 111, 67);}
+    100% {background-color: #ff4d4d;}
+}
+.omge {
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.block1 {
+    height: 50px;
+    width: 50px;
+    background-color: #ff4d4d;
+}
+.block2 {
+    height: 50px;
+    width: 50px;
+    background-color: #ff4d4d;
+}
+.Mars {
+    border-style: groove;
+    border-radius: 8px;
+}
