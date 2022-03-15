@@ -250,10 +250,11 @@ color: black;}
     text-shadow: 6px 6px 6px white;
 }
 .LL {
-    font-size: 25px;
+    font-size: 30px;
     font-family: cursive;
     font-weight: 400;
     color: black;
+    text-shadow: 4px 4px 4pd white;
 }
 #jok {
     animation-name: jok;
