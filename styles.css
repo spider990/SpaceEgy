@@ -252,9 +252,9 @@ color: black;}
 .LL {
     font-size: 30px;
     font-family: fantasy;
-    font-weight: 500;
-    color: white;
-    text-shadow: 6px 6px 6px 6px white;
+    font-weight: 700;
+    color: black;
+    text-shadow: 4px 4px white;
 }
 #jok {
     animation-name: jok;
