@@ -53,7 +53,7 @@ justify-content: space-between;}
 }
 #News {background-color: rgb(255, 255, 255);
 color: black;}
-#Contact {background-color:transparent;}
+#Contact {background-color:rgba(0, 0, 0, 0.30);}
 #About {background-color: rgb(24, 24, 24);}
 
 .ww {
