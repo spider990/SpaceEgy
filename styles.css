@@ -278,3 +278,6 @@ color: black;}
     border-style: groove;
     border-radius: 8px;
 }
+#lin:hover {
+    background-color: white;
+    color: black; }
